@@ -39,4 +39,9 @@ public class Family {
     public void setChildren(List<Person> children) {
         this.children = children;
     }
+
+    @Override
+    public String toString() {
+        return name + " " + father + " " + mother + " " + children;
+    }
 }

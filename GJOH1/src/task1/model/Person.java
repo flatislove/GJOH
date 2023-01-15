@@ -1,23 +1,26 @@
 package task1.model;
 
-import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 public class Person {
-    private String firstname;
+    protected String firstname;
 
-    private String lastname;
-    private String dateBirth;
-    private Family family;
-    private List<Person> parents;
-    private Set<Person> printedSiblings = new HashSet<>();
+    protected String lastname;
+    protected String dateBirth;
+    protected Family family;
+    protected List<Person> parents;
+    protected final List<Person> siblings;
+    protected final List<Person> children;
+
 
     public Person(String firstname, String lastname, String dateBirth, Family family) {
-        this.firstname=firstname;
-        this.lastname=lastname;
+        this.firstname = firstname;
+        this.lastname = lastname;
         this.dateBirth = dateBirth;
         this.family = family;
+        this.siblings = new ArrayList<>();
+        this.children = new ArrayList<>();
     }
 
     public String getFirstname() {
@@ -60,8 +63,28 @@ public class Person {
         this.parents = parents;
     }
 
+    public List<Person> getSiblings() {
+        return siblings;
+    }
+
+    public void addSiblings(Person siblings) {
+        this.siblings.add(siblings);
+    }
+
+    public List<Person> getChildren() {
+        return children;
+    }
+
+    public void addChildren(Person child) {
+        this.children.add(child);
+    }
+
     @Override
     public String toString() {
-        return firstname +" "+ lastname;
+        return firstname + " " + lastname + " " + dateBirth;
+    }
+
+    public void printInfo() {
+        System.out.println(this.firstname + " " + this.lastname + " " + this.dateBirth);
     }
 }
