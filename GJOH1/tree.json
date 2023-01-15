@@ -1,0 +1,163 @@
+{
+  "rootFamily": {
+    "members": [
+      {
+        "beauty": 8,
+        "favouriteFlavour": "ARCHIDEA",
+        "firstname": "Anna",
+        "lastname": "Cole",
+        "birthdate": "Jan 15, 2023, 4:41:59 AM",
+        "children": [
+          {
+            "power": 5,
+            "favouriteCar": "TOYOTA",
+            "firstname": "Alfred",
+            "lastname": "Cole",
+            "birthdate": "Jan 15, 2023, 4:41:59 AM",
+            "children": [
+              {
+                "power": 5,
+                "favouriteCar": "AUDI",
+                "firstname": "Fred",
+                "lastname": "Cole",
+                "birthdate": "Jan 15, 2023, 4:41:59 AM"
+              }
+            ],
+            "siblings": [
+              {
+                "power": 5,
+                "favouriteCar": "AUDI",
+                "firstname": "John",
+                "lastname": "Cole",
+                "birthdate": "Jan 15, 2023, 4:41:59 AM"
+              }
+            ]
+          },
+          {
+            "beauty": 5,
+            "favouriteFlavour": "LILY",
+            "firstname": "Amelia",
+            "lastname": "Cole",
+            "birthdate": "Jan 15, 2023, 4:41:59 AM",
+            "children": [
+              {
+                "beauty": 5,
+                "favouriteFlavour": "ROSE",
+                "firstname": "Emily",
+                "lastname": "Ted",
+                "birthdate": "Jan 15, 2023, 4:41:59 AM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "power": 6,
+        "favouriteCar": "AUDI",
+        "firstname": "Manuel",
+        "lastname": "Neuer",
+        "birthdate": "Jan 15, 2023, 4:41:59 AM"
+      },
+      {
+        "power": 5,
+        "favouriteCar": "TOYOTA",
+        "firstname": "Alfred",
+        "lastname": "Cole",
+        "birthdate": "Jan 15, 2023, 4:41:59 AM",
+        "children": [
+          {
+            "power": 5,
+            "favouriteCar": "AUDI",
+            "firstname": "Fred",
+            "lastname": "Cole",
+            "birthdate": "Jan 15, 2023, 4:41:59 AM"
+          }
+        ],
+        "siblings": [
+          {
+            "power": 5,
+            "favouriteCar": "AUDI",
+            "firstname": "John",
+            "lastname": "Cole",
+            "birthdate": "Jan 15, 2023, 4:41:59 AM"
+          }
+        ]
+      },
+      {
+        "beauty": 5,
+        "favouriteFlavour": "LILY",
+        "firstname": "Amelia",
+        "lastname": "Cole",
+        "birthdate": "Jan 15, 2023, 4:41:59 AM",
+        "children": [
+          {
+            "beauty": 5,
+            "favouriteFlavour": "ROSE",
+            "firstname": "Emily",
+            "lastname": "Ted",
+            "birthdate": "Jan 15, 2023, 4:41:59 AM"
+          }
+        ]
+      }
+    ],
+    "father": {
+      "power": 6,
+      "favouriteCar": "AUDI",
+      "firstname": "Manuel",
+      "lastname": "Neuer",
+      "birthdate": "Jan 15, 2023, 4:41:59 AM"
+    },
+    "mother": {
+      "beauty": 8,
+      "favouriteFlavour": "ARCHIDEA",
+      "firstname": "Anna",
+      "lastname": "Cole",
+      "birthdate": "Jan 15, 2023, 4:41:59 AM",
+      "children": [
+        {
+          "power": 5,
+          "favouriteCar": "TOYOTA",
+          "firstname": "Alfred",
+          "lastname": "Cole",
+          "birthdate": "Jan 15, 2023, 4:41:59 AM",
+          "children": [
+            {
+              "power": 5,
+              "favouriteCar": "AUDI",
+              "firstname": "Fred",
+              "lastname": "Cole",
+              "birthdate": "Jan 15, 2023, 4:41:59 AM"
+            }
+          ],
+          "siblings": [
+            {
+              "power": 5,
+              "favouriteCar": "AUDI",
+              "firstname": "John",
+              "lastname": "Cole",
+              "birthdate": "Jan 15, 2023, 4:41:59 AM"
+            }
+          ]
+        },
+        {
+          "beauty": 5,
+          "favouriteFlavour": "LILY",
+          "firstname": "Amelia",
+          "lastname": "Cole",
+          "birthdate": "Jan 15, 2023, 4:41:59 AM",
+          "children": [
+            {
+              "beauty": 5,
+              "favouriteFlavour": "ROSE",
+              "firstname": "Emily",
+              "lastname": "Ted",
+              "birthdate": "Jan 15, 2023, 4:41:59 AM"
+            }
+          ]
+        }
+      ]
+    },
+    "familyName": "Cole"
+  },
+  "familyByPerson": {}
+}
