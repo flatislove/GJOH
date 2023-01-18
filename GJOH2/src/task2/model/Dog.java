@@ -5,18 +5,10 @@ import task2.model.enums.Gender;
 import task2.model.service.AnimalService;
 
 public class Dog extends Animal implements AnimalService {
-    private int speed;
+    private final int speed;
 
     public Dog(String name, Color color, Gender gender, int speed) {
         super(name, color, gender);
-        this.speed = speed;
-    }
-
-    public int getSpeed() {
-        return speed;
-    }
-
-    public void setSpeed(int speed) {
         this.speed = speed;
     }
 

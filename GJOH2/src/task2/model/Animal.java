@@ -2,7 +2,6 @@ package task2.model;
 
 import task2.model.enums.Color;
 import task2.model.enums.Gender;
-import task2.model.service.AnimalService;
 
 public abstract class Animal {
     protected String name;

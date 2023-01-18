@@ -5,18 +5,10 @@ import task2.model.enums.Gender;
 import task2.model.service.AnimalService;
 
 public class Cat extends Animal implements AnimalService {
-    private int jumpHeight;
+    private final int jumpHeight;
 
     public Cat(String name, Color color, Gender gender, int jumpHeight) {
         super(name, color, gender);
-        this.jumpHeight = jumpHeight;
-    }
-
-    public int getJumpHeight() {
-        return jumpHeight;
-    }
-
-    public void setJumpHeight(int jumpHeight) {
         this.jumpHeight = jumpHeight;
     }
 
