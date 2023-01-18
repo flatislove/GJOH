@@ -3,7 +3,7 @@ package task2.model;
 import task2.model.enums.Color;
 import task2.model.enums.Gender;
 
-public class Dog extends Animal{
+public class Dog extends Animal {
     private int speed;
 
     public Dog(String name, Color color, Gender gender, int speed) {

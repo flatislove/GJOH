@@ -7,6 +7,7 @@ public class Person implements PersonService {
 
     private final String name;
     private final Gender gender;
+
     public Person(String name, Gender gender) {
         this.name = name;
         this.gender = gender;
