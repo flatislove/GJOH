@@ -1,4 +1,4 @@
-package task2.model.service;
+package task2.service;
 
 import task2.model.Bowl;
 

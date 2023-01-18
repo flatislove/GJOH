@@ -1,8 +1,8 @@
 package task2.model;
 
 import task2.model.enums.Gender;
-import task2.model.service.AnimalService;
-import task2.model.service.PersonService;
+import task2.service.AnimalService;
+import task2.service.PersonService;
 
 public class Person implements PersonService {
 

@@ -2,7 +2,7 @@ package task2.model;
 
 import task2.model.enums.Color;
 import task2.model.enums.Gender;
-import task2.model.service.AnimalService;
+import task2.service.AnimalService;
 
 public class Dog extends Animal implements AnimalService {
     private final int speed;
