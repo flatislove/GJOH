@@ -9,4 +9,6 @@ public interface AnimalService {
     void walkUp();
 
     void printInfo();
+
+    void setBowl(Bowl catsBowl);
 }

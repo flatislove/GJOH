@@ -1,6 +1,7 @@
 package task2.model;
 
 import task2.model.enums.Gender;
+import task2.model.service.AnimalService;
 import task2.model.service.PersonService;
 
 public class Person implements PersonService {
@@ -22,7 +23,7 @@ public class Person implements PersonService {
         }
     }
 
-    public void callAnimal(Animal animal) {
+    public void callAnimal(AnimalService animal) {
         animal.walkUp();
     }
 

@@ -3,13 +3,15 @@ package task2;
 import task2.model.*;
 import task2.model.enums.Color;
 import task2.model.enums.Gender;
+import task2.model.service.AnimalService;
+import task2.model.service.PersonService;
 
 public class MainPersonThing {
     public static void main(String[] args) {
 
-        Person person = new Person("Anna", Gender.FEMALE);
-        Animal cat = new Cat("Tomas", Color.BLACK, Gender.MALE, 2);
-        Animal dog = new Dog("Rich", Color.WHITE, Gender.MALE, 4);
+        PersonService person = new Person("Anna", Gender.FEMALE);
+        AnimalService cat = new Cat("Tomas", Color.BLACK, Gender.MALE, 2);
+        AnimalService dog = new Dog("Rich", Color.WHITE, Gender.MALE, 4);
 
         Bowl dogsBowl = new Bowl(Color.GRAY);
         Bowl catsBowl = new Bowl(Color.BLACK);

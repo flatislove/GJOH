@@ -2,8 +2,9 @@ package task2.model;
 
 import task2.model.enums.Color;
 import task2.model.enums.Gender;
+import task2.model.service.AnimalService;
 
-public class Cat extends Animal {
+public class Cat extends Animal implements AnimalService {
     private int jumpHeight;
 
     public Cat(String name, Color color, Gender gender, int jumpHeight) {
