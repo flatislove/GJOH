@@ -5,7 +5,6 @@ import java.util.List;
 /**
  * The class describes the representation of the family
  */
-
 public class Family {
     private String name;
     private Person father;
