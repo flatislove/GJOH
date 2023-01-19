@@ -3,6 +3,9 @@ package task2.model;
 import task2.model.enums.Color;
 import task2.model.enums.Gender;
 
+/**
+ * The abstract class describes the representation of Animal
+ */
 public abstract class Animal {
     protected String name;
     protected Color color;

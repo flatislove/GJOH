@@ -6,7 +6,15 @@ import task2.model.enums.Gender;
 import task2.service.AnimalService;
 import task2.service.PersonService;
 
+/**
+ * Обеспечить переход от использования явных классов в сторону использования абстрактных типов.
+ */
 public class MainPersonThing {
+    /**
+     * Execution script
+     *
+     * @param args args
+     */
     public static void main(String[] args) {
 
         PersonService person = new Person("Anna", Gender.FEMALE);

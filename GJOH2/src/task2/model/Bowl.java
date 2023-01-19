@@ -2,6 +2,9 @@ package task2.model;
 
 import task2.model.enums.Color;
 
+/**
+ * The class describes the representation of the Bowl
+ */
 public class Bowl {
     private final Color color;
     private boolean isEmpty;

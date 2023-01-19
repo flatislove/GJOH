@@ -4,6 +4,9 @@ import task2.model.enums.Color;
 import task2.model.enums.Gender;
 import task2.service.AnimalService;
 
+/**
+ * The class describes the representation of the Dog
+ */
 public class Dog extends Animal implements AnimalService {
     private final int speed;
 

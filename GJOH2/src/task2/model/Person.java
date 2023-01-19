@@ -4,6 +4,9 @@ import task2.model.enums.Gender;
 import task2.service.AnimalService;
 import task2.service.PersonService;
 
+/**
+ * The class describes the representation of the Person
+ */
 public class Person implements PersonService {
 
     private final String name;
