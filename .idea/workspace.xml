@@ -5,13 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b998ce8e-4926-4938-9584-2f786f17882b" name="Changes" comment="s1">
-      <change afterPath="$PROJECT_DIR$/GJOH2/src/task1/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GJOH2/src/task1/model/Family.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GJOH2/src/task1/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GJOH2/src/task2/model/service/AnimalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GJOH2/src/task2/model/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/gson-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task1/MainTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task1/family.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task1/model/Family.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task1/model/Female.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task1/model/Male.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task1/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task1/model/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task1/model/dto/FamilyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task1/model/enums/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task1/model/enums/Flavour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task1/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task1/service/TreeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task2/MainPersonThing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task2/model/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task2/model/Bowl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task2/model/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task2/model/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task2/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task2/model/enums/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task2/model/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task2/model/enums/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task2/service/AnimalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GJOH3/src/task2/service/PersonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +51,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/flvtisv/Documents/GB/Java/GJOH/GJOH2"
+    "last_opened_file_path": "/home/flvtisv/Documents/GB/Java/GJOH"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

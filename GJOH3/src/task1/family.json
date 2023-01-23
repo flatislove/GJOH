@@ -1,0 +1,9 @@
+{
+  "name": "Smith",
+  "father": "adam smith",
+  "mother": "eva smith",
+  "children": [
+    "kain",
+    "glade"
+  ]
+}
