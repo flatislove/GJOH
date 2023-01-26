@@ -4,7 +4,7 @@
     "description": "Priority from Integer",
     "priority": "HIGH",
     "addingData": "Jan 26, 2023, 12:00:00 AM",
-    "addingTime": "Jan 1, 1970, 11:08:00 PM",
+    "addingTime": "Jan 1, 1970, 11:20:00 PM",
     "deadlineData": "Feb 1, 2023, 12:00:00 AM",
     "deadlineTime": "Jan 1, 1970, 8:00:00 AM",
     "author": {
@@ -18,7 +18,7 @@
     "description": "Priority from String",
     "priority": "LOW",
     "addingData": "Jan 26, 2023, 12:00:00 AM",
-    "addingTime": "Jan 1, 1970, 11:08:00 PM",
+    "addingTime": "Jan 1, 1970, 11:20:00 PM",
     "deadlineData": "Feb 23, 2023, 12:00:00 AM",
     "deadlineTime": "Jan 1, 1970, 11:15:00 AM",
     "author": {
@@ -32,7 +32,7 @@
     "description": "Priority from Double",
     "priority": "LOW",
     "addingData": "Jan 26, 2023, 12:00:00 AM",
-    "addingTime": "Jan 1, 1970, 11:08:00 PM",
+    "addingTime": "Jan 1, 1970, 11:20:00 PM",
     "deadlineData": "Feb 11, 2023, 12:00:00 AM",
     "deadlineTime": "Jan 1, 1970, 4:45:00 PM",
     "author": {
@@ -46,7 +46,7 @@
     "description": "Priority from Upper String",
     "priority": "HIGH",
     "addingData": "Jan 26, 2023, 12:00:00 AM",
-    "addingTime": "Jan 1, 1970, 11:08:00 PM",
+    "addingTime": "Jan 1, 1970, 11:20:00 PM",
     "deadlineData": "Jan 30, 2023, 12:00:00 AM",
     "deadlineTime": "Jan 1, 1970, 10:00:00 AM",
     "author": {
@@ -60,7 +60,7 @@
     "description": "Priority from Priority",
     "priority": "HIGH",
     "addingData": "Jan 26, 2023, 12:00:00 AM",
-    "addingTime": "Jan 1, 1970, 11:08:00 PM",
+    "addingTime": "Jan 1, 1970, 11:20:00 PM",
     "deadlineData": "Feb 1, 2023, 12:00:00 AM",
     "deadlineTime": "Jan 1, 1970, 5:00:00 PM",
     "author": {
@@ -74,7 +74,7 @@
     "description": "Priority from other type",
     "priority": "NORMAL",
     "addingData": "Jan 26, 2023, 12:00:00 AM",
-    "addingTime": "Jan 1, 1970, 11:08:00 PM",
+    "addingTime": "Jan 1, 1970, 11:20:00 PM",
     "deadlineData": "Feb 1, 2023, 12:00:00 AM",
     "deadlineTime": "Jan 1, 1970, 11:00:00 AM",
     "author": {
@@ -88,7 +88,7 @@
     "description": "Priority from Priority name",
     "priority": "LOW",
     "addingData": "Jan 26, 2023, 12:00:00 AM",
-    "addingTime": "Jan 1, 1970, 11:08:00 PM",
+    "addingTime": "Jan 1, 1970, 11:20:00 PM",
     "deadlineData": "Feb 4, 2023, 12:00:00 AM",
     "deadlineTime": "Jan 1, 1970, 8:00:00 AM",
     "author": {
@@ -102,7 +102,7 @@
     "description": "Priority from empty String",
     "priority": "NORMAL",
     "addingData": "Jan 26, 2023, 12:00:00 AM",
-    "addingTime": "Jan 1, 1970, 11:08:00 PM",
+    "addingTime": "Jan 1, 1970, 11:20:00 PM",
     "deadlineData": "Feb 3, 2023, 12:00:00 AM",
     "deadlineTime": "Jan 4, 1970, 5:00:00 AM",
     "author": {
@@ -116,7 +116,7 @@
     "description": "Priority from String",
     "priority": "LOW",
     "addingData": "Jan 26, 2023, 12:00:00 AM",
-    "addingTime": "Jan 1, 1970, 11:08:00 PM",
+    "addingTime": "Jan 1, 1970, 11:20:00 PM",
     "deadlineData": "Feb 2, 2023, 12:00:00 AM",
     "deadlineTime": "Jan 1, 1970, 2:25:00 PM",
     "author": {
@@ -130,7 +130,7 @@
     "description": "Priority from Long",
     "priority": "LOW",
     "addingData": "Jan 26, 2023, 12:00:00 AM",
-    "addingTime": "Jan 1, 1970, 11:08:00 PM",
+    "addingTime": "Jan 1, 1970, 11:20:00 PM",
     "deadlineData": "Feb 1, 2023, 12:00:00 AM",
     "deadlineTime": "Jan 1, 1970, 5:45:00 PM",
     "author": {

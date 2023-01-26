@@ -19,6 +19,7 @@ import java.util.List;
  */
 public class MainScheduler {
     public static void main(String[] args) {
+        String path = "src/task1/storage/";
         FileService fileOperation = new FileOperation();
         TaskService taskService = new TaskOperation();
 
@@ -41,13 +42,13 @@ public class MainScheduler {
 
         List<Task> list = List.of(task1, task2, task3, task4, task5, task6, task7, task8, task9, task10);
 
-        fileOperation.saveToFile(list, "src/task1/storage/list.json");
-        fileOperation.saveToFile(task1, "src/task1/storage/task.json");
-        fileOperation.saveToFile(john, "src/task1/storage/author.json");
+        fileOperation.saveToFile(list, path+"list.json");
+        fileOperation.saveToFile(task1, path+"task.json");
+        fileOperation.saveToFile(john, path+"author.json");
 
-        Task taskFromFile = fileOperation.readFromFile("src/task1/storage/task.json", Task.class);
-        Author authorFromFile = fileOperation.readFromFile("src/task1/storage/author.json", Author.class);
-        List<Task> listFromFile = fileOperation.readFromFile("src/task1/storage/list.json", new TypeToken<List<Task>>() {
+        Task taskFromFile = fileOperation.readFromFile(path+"task.json", Task.class);
+        Author authorFromFile = fileOperation.readFromFile(path+"author.json", Author.class);
+        List<Task> listFromFile = fileOperation.readFromFile(path+"list.json", new TypeToken<List<Task>>() {
         }.getType());
 
         System.out.println();
