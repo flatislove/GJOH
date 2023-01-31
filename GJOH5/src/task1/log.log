@@ -1,0 +1,32 @@
+Jan 30, 2023 8:23:57 AM task1.controller.Calculate solve
+INFO: Sum: varA=3.0; varB=3.0operation=SUMMARIZE Result: 6.0
+Jan 30, 2023 8:24:05 AM task1.controller.Calculate solve
+INFO: Multiply: varA=2.0; varB=3.0operation=MULTIPLY Result: 6.0
+Jan 30, 2023 8:32:00 AM task1.controller.Calculate solve
+INFO: Sum: varA=4.0; varB=3.0operation=SUMMARIZE Result: 7.0
+Jan 30, 2023 8:32:07 AM task1.controller.Calculate solve
+INFO: Difference: varA=2.0; varB=1.0operation=DIFFERENCE Result: 1.0
+Jan 30, 2023 8:32:11 AM task1.controller.Calculate solve
+INFO: Divide: varA=3.0; varB=6.0operation=DIVIDE Result: 0.5
+Jan 30, 2023 8:33:28 AM task1.controller.Calculate solve
+INFO: Sum: varA=5.0; varB=2.0operation=SUMMARIZE Result: 7.0
+Jan 30, 2023 8:46:08 AM task1.service.SolveImpl solve
+INFO: Difference: varA=2.0; varB=3.0operation=DIFFERENCE Result: -1.0
+Jan 30, 2023 8:47:21 AM task1.service.SolveImpl solve
+INFO: Sum: varA=3.0; varB=9.0operation=SUMMARIZE Result: 12.0
+Jan 30, 2023 8:52:29 AM task1.service.SolveImpl solve
+INFO: Sum: varA=4.0; varB=5.0operation=SUMMARIZE Result: 9.0
+Jan 30, 2023 9:02:08 AM task1.service.SolveImpl solve
+INFO: Multiply: varA=3.0; varB=4.0operation=MULTIPLY Result: 12.0
+Jan 30, 2023 9:02:15 AM task1.service.SolveImpl solve
+INFO: Difference: varA=5.0; varB=3.0operation=DIFFERENCE Result: 2.0
+Jan 30, 2023 9:02:18 AM task1.service.SolveImpl solve
+INFO: Sum: varA=3.0; varB=2.0operation=SUMMARIZE Result: 5.0
+Jan 30, 2023 9:03:04 AM task1.service.SolveImpl solve
+INFO: Divide: varA=3.0; varB=0.0operation=DIVIDE Result: Infinity
+Jan 30, 2023 9:16:30 AM task1.service.SolveImpl solve
+INFO: Sum: varA=2.0; varB=7.0operation=SUMMARIZE Result: 9.0
+Jan 30, 2023 9:18:48 AM task1.service.SolveImpl solve
+INFO: Sum: varA=4.0; varB=6.0operation=SUMMARIZE Result: 10.0
+Jan 30, 2023 9:20:26 AM task1.service.SolveImpl solve
+INFO: Sum: varA=4.0; varB=5.0operation=SUMMARIZE Result: 9.0
