@@ -1,0 +1,42 @@
+[
+  {
+    "id": "61c31f07-944d-486a-b24a-605d34e88b6e",
+    "firstname": "fedor",
+    "lastname": "smith",
+    "phones": {
+      "838272": "PRIVATE"
+    }
+  },
+  {
+    "id": "3d6d7f2d-6312-4602-910f-862671938026",
+    "firstname": "sanny",
+    "lastname": "cooper",
+    "phones": {
+      "3232435": "PRIVATE"
+    }
+  },
+  {
+    "id": "b9cacf0b-5901-46cb-b9cc-10a5dc4fd82e",
+    "firstname": "lily",
+    "lastname": "williams",
+    "phones": {
+      "453432": "HOME"
+    }
+  },
+  {
+    "id": "74fe3389-fc0d-4cd0-8909-b95adfbde671",
+    "firstname": "mercedes",
+    "lastname": "benz",
+    "phones": {
+      "543623": "WORK"
+    }
+  },
+  {
+    "id": "24df8aa2-6dcd-43fb-8531-6f26ee7fcf2e",
+    "firstname": "fred",
+    "lastname": "jordan",
+    "phones": {
+      "9023923": "HOME"
+    }
+  }
+]
