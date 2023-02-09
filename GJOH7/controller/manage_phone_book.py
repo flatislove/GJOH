@@ -60,7 +60,7 @@ class ManagePhoneBook:
                         contacts_for_remove[position_contacts_for_remove - 1], self.filename)
                 else:
                     self.show_menu.show_message("Wrong number...")
-            elif action == "7":
+            elif action == "6":
                 contacts = self.json_operation.read_from_json_file(
                     self.filename)
                 self.xml_operation.save_to_xml_file(
