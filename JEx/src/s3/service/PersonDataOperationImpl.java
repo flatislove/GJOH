@@ -33,7 +33,7 @@ public class PersonDataOperationImpl implements PersonDataOperation {
     }
 
     @Override
-    public void saveBook(List<PersonData> personData) {
+    public void savePersonsData(List<PersonData> personData) {
         try {
             fileOperation.saveToFile(filenamePath, personData);
         } catch (Exception e) {

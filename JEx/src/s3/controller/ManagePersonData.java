@@ -41,7 +41,7 @@ public class ManagePersonData {
             }
             case "3" -> {
                 System.out.println("\nSAVE");
-                personDataOperation.saveBook(personDataList);
+                personDataOperation.savePersonsData(personDataList);
                 menu.showMessage("Saved Data...");
                 menu.waitInput();
             }

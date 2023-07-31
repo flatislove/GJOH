@@ -29,8 +29,13 @@ public class Menu {
     }
 
     public void showContacts(List<PersonData> personData) {
-        for (int i = 0; i < personData.size(); i++) {
-            showMessage("#: " + (i + 1) + " " + personData.get(i));
+        if (personData.size() == 0){
+            showMessage("- Persons data list is empty -");
+        }
+        else {
+            for (int i = 0; i < personData.size(); i++) {
+                showMessage("#: " + (i + 1) + " " + personData.get(i));
+            }
         }
     }
 

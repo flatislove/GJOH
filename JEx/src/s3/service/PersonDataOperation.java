@@ -11,5 +11,5 @@ public interface PersonDataOperation {
 
     void addContact(String person, List<PersonData> personDataList);
 
-    void saveBook(List<PersonData> personData);
+    void savePersonsData(List<PersonData> personData);
 }
