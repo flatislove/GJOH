@@ -30,7 +30,7 @@ public class ManagePersonData {
     public void checkAction(String action) {
         switch (action) {
             case "1" -> {
-                System.out.println("\nCONTACTS");
+                System.out.println("\nPERSONS DATA");
                 menu.showContacts(personDataList);
                 menu.waitInput();
             }

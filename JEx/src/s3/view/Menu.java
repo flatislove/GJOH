@@ -11,9 +11,9 @@ public class Menu {
     public String showMenu() {
         while (true) {
             showMessage("Choose operation:");
-            showMessage("1 - See phone book");
-            showMessage("2 - Add contact");
-            showMessage("3 - Save book to TXT");
+            showMessage("1 - See persons data");
+            showMessage("2 - Add person data");
+            showMessage("3 - Save data to TXT");
             showMessage("0 - exit");
             String action = getValue("Enter the action");
             if ("0123".contains(action) && action.length() == 1) {
